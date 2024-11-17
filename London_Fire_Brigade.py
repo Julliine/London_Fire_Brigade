@@ -601,7 +601,7 @@ if page==pages[3] :
                 8. Calcul des métriques de performance
                 """)
     
-    st.subheader("2 .Comparaison des modèle")
+    st.subheader("2 .Comparaison des modèles")
     if 'Unnamed: 0' in Results_Reg.columns:
         Results_Reg.set_index('Unnamed: 0', inplace=True)
     Results_Reg.index.name=None
