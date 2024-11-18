@@ -636,7 +636,7 @@ if page==pages[4] :
         ])
     st.dataframe(df1, use_container_width=True, hide_index=True)
 
-    st.subheader("2. Calcul du poids des classes ")
+    st.subheader("2. Calcul et intégration du poids des classes dans la modélisation")
     df2 = pd.DataFrame(
         {"Très Lente": [2.8939049995435595],
         "Lente": [1.365530906741331],
